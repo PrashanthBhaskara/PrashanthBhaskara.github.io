@@ -1,0 +1,125 @@
+/* ============================================================
+   Base & Reset
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================================
+   Typography & Colors
+   ============================================================ */
+body {
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #111;
+  background: #fff;
+}
+
+/* ============================================================
+   Layout
+   ============================================================ */
+.container {
+  max-width: 680px;
+  margin: 80px auto;
+  padding: 0 24px;
+}
+
+/* ============================================================
+   Name / Heading
+   ============================================================ */
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+}
+
+/* ============================================================
+   Links row
+   ============================================================ */
+.links {
+  margin-bottom: 36px;
+  font-size: 0.92rem;
+  color: #444;
+}
+
+.links .dot {
+  margin: 0 8px;
+  color: #bbb;
+}
+
+/* ============================================================
+   Section headings
+   ============================================================ */
+h2 {
+  font-size: 0.78rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #888;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* ============================================================
+   Body text & lists
+   ============================================================ */
+section p {
+  margin-bottom: 16px;
+  color: #222;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 8px;
+  color: #222;
+}
+
+/* Hanging dash for list items — matches the minimal academic style */
+section ul li::before {
+  content: "— ";
+  color: #bbb;
+}
+
+/* ============================================================
+   Links
+   ============================================================ */
+a {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #555;
+}
+
+/* ============================================================
+   Footer
+   ============================================================ */
+footer {
+  margin-top: 64px;
+  font-size: 0.8rem;
+  color: #aaa;
+  padding-bottom: 48px;
+}
+
+/* ============================================================
+   Mobile
+   ============================================================ */
+@media (max-width: 600px) {
+  .container {
+    margin: 48px auto;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+}
